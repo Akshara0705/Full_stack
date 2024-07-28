@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div class="expense-tracker">
+        <h1>Expense Tracker</h1>
+        <form id="expense-form">
+            <input type="number" id="amount" placeholder="Amount" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="date" id="date" required>
+            <button type="submit">Add Expense</button>
+        </form>
+        <div class="filter-options">
+            <input type="date" id="filter-date">
+            <button id="filter-button">Filter by Date</button>
+        </div>
+        <ul id="expense-list"></ul>
+        <h3 id="total-expenses">Total Expenses: $0</h3>
+    </div>
+    <script src="task3.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    transition: background-color 0.5s;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: opacity 0.3s;
+}
+
+button#red {
+    background-color: red;
+}
+
+button#violet {
+    background-color: violet;
+}
+
+button#blue {
+    background-color: blue;
+}
+
+button#aqua {
+    background-color:aqua;
+}
+
+button#purple {
+    background-color: purple;
+}
+
+button:hover {
+    opacity: 0.8;
+}
